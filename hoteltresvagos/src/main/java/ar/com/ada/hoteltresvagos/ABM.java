@@ -90,7 +90,7 @@ public class ABM {
         System.out.println("Ingrese el DNI:");
         huesped.setDni(Teclado.nextInt());
         Teclado.nextLine();
-        System.out.println("Ingrese la domicilio:");
+        System.out.println("Ingrese el domicilio:");
         huesped.setDomicilio(Teclado.nextLine());
 
         System.out.println("Ingrese el Domicilio alternativo(OPCIONAL):");
@@ -114,6 +114,7 @@ public class ABM {
 
         Date fechaIngreso = null;
         Date fechaEgreso = null;
+        
         DateFormat dFormat = new SimpleDateFormat("dd/MM/yy");
 
         //fecha = dFormat.parse(Teclado.nextLine());
@@ -259,6 +260,18 @@ public class ABM {
             mostrarHuesped(c);
         }
     }
+
+
+    //OBLIGATORIO
+    public void cargarReserva(){
+
+    }
+
+    //OBLLIGATORIO
+    public void listarReservas(){
+
+    }
+
 
     public void listarPorNombre() {
 

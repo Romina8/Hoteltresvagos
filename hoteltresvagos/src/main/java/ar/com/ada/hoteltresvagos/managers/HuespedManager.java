@@ -109,7 +109,6 @@ public class HuespedManager {
         return todos;
 
     }
-
     /**
      * Busca una lista de huespedes por el nombre completo Esta armado para que se
      * pueda generar un SQL Injection y mostrar commo NO debe programarse.
@@ -132,5 +131,9 @@ public class HuespedManager {
         return huespedes;
 
     }
+
+	public List<Reserva> cargarReserva() {
+		return null;
+	}
 
 }
